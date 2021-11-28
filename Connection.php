@@ -8,7 +8,7 @@
 	<p><?php
 		$servername = "localhost";
 		$username = "root"; // MySQL username
-		$password = "3333" // MySQL password
+		$password = "3333"; // MySQL password
 		$dbname = "schooldb"; //database name
 		
 		// MySQL Connection
