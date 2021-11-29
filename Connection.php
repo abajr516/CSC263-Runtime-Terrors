@@ -19,10 +19,6 @@
 			die ("<p style = 'color: red'>") . "Connection failed:".$conn->connect_error."</p>");
 		}
 		echo "MySQL Database connected sucessfully.<br>";
-
-		$conn -> close();
-
-		echo "Database Disconnect.";
 	?></p>
 </body>
 </html>
