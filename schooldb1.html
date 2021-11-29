@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Professor Grade Submission</title>
+    <style type="text/css">
+      body {
+        background-color: #f1efed;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      form {
+        text-align: center;
+      }
+      
+      label, input {
+        color: #4f2c1d;
+      }
+      
+      h1, label {
+        color: #4f2c1d;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!--The page that allows the professor to submit grades-->
+    <img src="https://class.adelphi.edu/images/images/adelphi-logo.png" alt="adelphi university logo">
+    <h1>Professor Grade Submission:</h1>
+    <!--Data from this form is sent using POST
+        (need to include php file inside action = "") -->
+    <form method="post" action="http://localhost/Shiven/connect.php">
+      <label for="studentid">Student ID: </label><br>
+      <input type="text" name="studentid" value=""><br>
+
+      <label for="courseid">Course ID: </label><br>
+      <input type="text" name="courseid" value=""><br>
+
+      <label for="grade">Grade Received: </label><br>
+      <input type="text" name="grade" value=""><br>
+
+      <br>
+      <input type="submit" value="Submit" id="myDIYsubmit">
+    </form>
+  </body>
+
+</html>
