@@ -47,7 +47,7 @@
 		FROM courses, grades, students
 		WHERE courses.courseid = grades.courseid 
 		AND grades.studentid = students.studentid 
-		AND students.studentid = 1001;";
+		AND students.studentid =  ". $_POST["studentid"] . ";";
       $result = $conn->query($sql);
       
       if ($result->num_rows > 0){
