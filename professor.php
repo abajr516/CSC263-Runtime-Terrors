@@ -13,7 +13,6 @@ if (isset($_POST['submitted'])) {
     if (!mysqli_query($conn, $sqlinsert)) {
         die('error inserting new record');
     } //end of my nested if statement
-    $newrecord = "1 record added to the database";
 } //end of the main if statement
 ?>
 
@@ -24,7 +23,7 @@ if (isset($_POST['submitted'])) {
     </head>
     <body>
     <?php
-    echo $newrecord
+    echo "1 record added to the database";
     ?>
     </body>
 </html>
