@@ -23,6 +23,8 @@ if (isset($_POST['submitted'])) {
         <title>Grade Post</title>
     </head>
     <body>
-        <table>
-            <tr>
-                <th>
+    <?php
+    echo $newrecord
+    ?>
+    </body>
+</html>
