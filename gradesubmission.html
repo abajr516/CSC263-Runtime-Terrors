@@ -34,9 +34,11 @@
     <!--Data from this form is sent using POST
         (need to include php file inside action = "") -->
     <form method="post" action="professor.php">
+      <input type="hidden" name="submitted" value="true"><br>
+
       <label for="term">Term: </label><br>
       <input type="text" name="term" value=""><br>
-      
+       
       <label for="studentid">Student ID: </label><br>
       <input type="text" name="studentid" value=""><br>
 
@@ -47,7 +49,7 @@
       <input type="text" name="grade" value=""><br>
 
       <br>
-      <input type="submit" value="Submit" id="myDIYsubmit">
+      <input type="submit" value="Submit">
     </form>
   </body>
 
